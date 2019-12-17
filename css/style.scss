@@ -6,18 +6,21 @@
 body {
     font-family: Open Sans, sans-serif;
 }
+
 .container {
     width: 100%;
-    padding:0;
-    margin:0;
+    padding: 0;
+    margin: 0;
 }
 
-.container2{
+.container2 {
     padding: 20px;
 }
-a{
+
+a {
     text-decoration: none;
-  }
+}
+
 /* ------home--------- */
 
 .logo {
@@ -43,13 +46,15 @@ a{
     width: 100%;
     padding: 9px 0;
 }
-.content{
+
+.content {
     min-height: 100%;
 }
 
-.blue{
+.blue {
     color: #2698f3;
 }
+
 .settingItem {
     padding: 9px 0;
     box-shadow: 1px 2px 3px 2px #f3f5f7;
@@ -58,39 +63,43 @@ a{
     align-items: center;
     margin: 8px 0;
 
-    .row{
-        margin:0
+    .row {
+        margin: 0;
     }
-    .row .col-6 , .col-7, .col-12{
-        p{
+
+    .row .col-6, .col-7, .col-12 {
+        p {
             font-size: 11px;
             margin-bottom: 0;
             width: max-content;
             margin-top: 5px;
         }
-        i{
-            color:#2698f3;
+
+        i {
+            color: #2698f3;
             margin-right: 5px;
         }
-        a{
-            color:black ;
-            font-size: 11px;
 
+        a {
+            color: black;
+            font-size: 11px;
         }
     }
 }
-@media screen and (max-width:768px) and ( min-width: 320px) {
+
+@media screen and (max-width: 768px) and (min-width: 320px) {
     html, body {
         width: 100%;
         height: 100%;
         overflow-x: hidden;
     }
+
     .row {
         max-width: 1140px;
         margin: 0 auto;
     }
-   
 }
+
 .footer {
     background-color: #2698f3;
     color: white;
@@ -99,13 +108,15 @@ a{
     padding: 14px 0;
     margin-top: 185px;
 }
+
 .footer .row .col-3 {
     display: flex;
     justify-content: center;
 }
-.footer .row .col-3 a ,i {
+
+.footer .row .col-3 a, i {
     color: white;
-justify-content: center;
-text-align: center;
-font-size: 13px;
+    justify-content: center;
+    text-align: center;
+    font-size: 13px;
 }
