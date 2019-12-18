@@ -53,9 +53,14 @@ a {
   background-color: #2698f3;
   color: white;
   display: flex;
+  justify-content: center;
   width: 100%;
   padding: 9px;
   align-items: center;
+}
+
+.header h5 {
+  margin-top: 9px;
 }
 
 .header i {
@@ -64,7 +69,7 @@ a {
 
 .footer {
   background-color: #2698f3;
-  color: white;
+  color: #c0e2ff;
   bottom: 0;
   width: 100%;
   padding: 14px 0;
@@ -75,8 +80,12 @@ a {
   justify-content: center;
 }
 
-.footer .row .col-3 a, i {
+.footer .row .col-3 .active {
   color: white;
+}
+
+.footer .row .col-3 a, i {
+  color: #c0e2ff;
   justify-content: center;
   text-align: center;
   font-size: 13px;
@@ -84,10 +93,19 @@ a {
 
 .content {
   min-height: 100%;
+  margin-bottom: 11em;
+}
+
+.content .boldTxt h5 {
+  font-weight: bold;
 }
 
 .blue {
   color: #2698f3;
+}
+
+.gray {
+  background-color: #f3f3f3;
 }
 
 .settingItem {
@@ -147,5 +165,10 @@ form .col-12 {
 }
 
 .updateBtn {
-  margin-top: 18em;
+  margin: 1em auto;
+}
+
+.updateBtn button {
+  width: 152px;
+  font-size: 14px;
 }
