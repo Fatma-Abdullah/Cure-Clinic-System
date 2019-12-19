@@ -193,7 +193,7 @@ a {
   background-color: #F2F9FF;
 }
 
-.content .lang:first-child .title {
+.content .lang:first-child .title, .content .lang:first-child i {
   color: #2698F3;
 }
 
