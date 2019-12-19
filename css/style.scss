@@ -65,6 +65,7 @@ a {
     }
     i{
         margin-right: 25px;
+        cursor: pointer;
     }
 }
 
@@ -77,7 +78,7 @@ a {
     // margin-top: 185px;
 }
 
-.footer .row .col-3 {
+.footer .row .col-3 , .col-4 {
     display: flex;
     justify-content: center;
     .active{
@@ -85,11 +86,12 @@ a {
     }
 }
 
-.footer .row .col-3 a, i {
+.footer .row .col-3  a, i ,.col-4 a, i{
     color: #c0e2ff;
     justify-content: center;
     text-align: center;
     font-size: 13px;
+    margin-top: 2px;
    
 }
 
