@@ -264,6 +264,11 @@ form{
             margin: 5px 94px;
         }
     }
+    .chPassMargin{
+        h6{
+            margin: 5px 13px;
+        }
+    }
 }
 @media screen and (max-width: 411px) and (min-width: 375px) {
     .header{
@@ -274,6 +279,11 @@ form{
     .homeMargin{
         h6{
             margin: 5px 119px;
+        }
+    }
+    .chPassMargin{
+        h6{
+            margin: 5px 41px;
         }
     }
 }
@@ -288,6 +298,11 @@ form{
             margin: 5px 140px;
         }
     }
+    .chPassMargin{
+        h6{
+            margin: 5px 52px;
+        }
+    }
         .content {
             min-height: 100%;
             margin-bottom: 12em;
@@ -297,6 +312,9 @@ form{
         }
         .lgContent{
             margin-bottom: 18em;
-    
+        }
+        .xlgContent{
+            margin-bottom: 27em;
+
         }
     }

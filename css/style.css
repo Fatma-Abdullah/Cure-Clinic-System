@@ -271,6 +271,9 @@ form .col-12 {
   .homeMargin h6 {
     margin: 5px 94px;
   }
+  .chPassMargin h6 {
+    margin: 5px 13px;
+  }
 }
 
 @media screen and (max-width: 411px) and (min-width: 375px) {
@@ -279,6 +282,9 @@ form .col-12 {
   }
   .homeMargin h6 {
     margin: 5px 119px;
+  }
+  .chPassMargin h6 {
+    margin: 5px 41px;
   }
 }
 
@@ -289,6 +295,9 @@ form .col-12 {
   .homeMargin h6 {
     margin: 5px 140px;
   }
+  .chPassMargin h6 {
+    margin: 5px 52px;
+  }
   .content {
     min-height: 100%;
     margin-bottom: 12em;
@@ -298,5 +307,8 @@ form .col-12 {
   }
   .lgContent {
     margin-bottom: 18em;
+  }
+  .xlgContent {
+    margin-bottom: 27em;
   }
 }
