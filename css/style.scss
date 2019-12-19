@@ -102,43 +102,48 @@ a {
     .boldTxt h5{
         font-weight: bold;
     }
-    .container2{
-        .titleRow{
-            display: flex;
-            img{
-                width: 15px;
-                height: 15px;
-                margin-top: 3px;
-                margin-right: 1px;
-            }
+    .prescList{
+        background-color: white;
+        padding: 7px 15px;
+    }
+    .titleRow{
+        display: flex;
+        img{
+            width: 15px;
+            height: 15px;
+            margin-top: 3px;
+            margin-right: 1px;
         }
-        .title{
+    }
+    
+    .title{
+        font-weight: bold;
+        margin:0;
+        font-size:18px;
+        color: #474747;
+    }
+    .para{
+        font-weight: lighter;
+        margin:0;
+        font-size:14px;
+    }
+    .drug{
+        margin-right: 15px;
+        background-color: #F3F9FE;
+        padding: 5px;
+        margin-top: 5px;
+        .MiniTitle{
             font-weight: bold;
             margin:0;
-            font-size:18px;
+            font-size:16px;
+            color:#2698F3 ;
         }
-        .para{
-            font-weight: lighter;
-            margin:0;
-            font-size:14px;
-        }
-        .drug{
-            margin-right: 15px;
-            background-color: #F3F9FE;
-            padding: 5px;
-            margin-top: 5px;
-            .MiniTitle{
-                font-weight: bold;
-                margin:0;
-                font-size:16px;
-                color:#2698F3 ;
-            }
-            span.para{
-                font-size: 14px;
-            }
+        span.para{
+            font-size: 14px;
         }
     }
 }
+
 
 .blue {
     color: #2698f3;
