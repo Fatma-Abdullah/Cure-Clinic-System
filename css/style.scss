@@ -168,6 +168,21 @@ a {
             font-size: 14px;
         }
     }
+    .lang{
+        margin:0;
+        padding: 10px;
+        border-bottom: 0.1px solid #d4d4d4;
+        .title{
+            font-size: 16px;
+        }
+        &:first-child{
+            background-color: #F2F9FF;
+            .title{
+                color: #2698F3;
+            }
+        }
+    }
+
 }
 
 
