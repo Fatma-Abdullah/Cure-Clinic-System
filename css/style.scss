@@ -39,18 +39,6 @@ a {
 }
 
 
-@media screen and (max-width: 768px) and (min-width: 320px) {
-    html, body {
-        width: 100%;
-        height: 100%;
-        overflow-x: hidden;
-    }
-
-    .row {
-        max-width: 1140px;
-        margin: 0 auto;
-    }
-}
 
 /* -------setting----------- */
 .header {
@@ -61,6 +49,11 @@ a {
     width: 100%;
     padding: 9px;
     align-items: center;
+    h6{
+        margin: 5px 54px;
+    }
+   
+    
     h5{
         margin-top:9px
     }
@@ -68,8 +61,21 @@ a {
         margin-right: 25px;
         cursor: pointer;
     }
+    .noMargin{
+        margin: 5px 12px;
+    }
+    .midMargin{
+        h6{
+        margin: 5px 100px;
+    } 
+    }
+  
 }
-
+.homeMargin{
+    h6{
+        margin: 5px 94px;
+    }
+}
 .footer {
     background-color: #2698f3;
     color: #c0e2ff;
@@ -95,10 +101,21 @@ a {
     margin-top: 2px;
    
 }
+.rightDiv{
+    text-align: right;
+    margin: 1em 2em;
+    i{
+        font-size: 3em;
+        color: #2698f3;
 
+    }
+}
 .content {
     min-height: 100%;
     margin-bottom: 11em;
+    .imageCenter{
+        margin-top: 142px;
+    }
     .boldTxt h5{
         font-weight: bold;
     }
@@ -223,3 +240,63 @@ form{
         font-size: 14px;
     }
 }
+
+@media screen and (max-width: 800px) and (min-width: 320px) {
+    html, body {
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+    }
+
+    .row {
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 374px) and (min-width: 320px) {
+    .header{
+        h6{
+            margin: 5px 54px;
+        }
+    }
+    .homeMargin{
+        h6{
+            margin: 5px 94px;
+        }
+    }
+}
+@media screen and (max-width: 411px) and (min-width: 375px) {
+    .header{
+        h6{
+            margin: 5px 60px;
+        }
+    }
+    .homeMargin{
+        h6{
+            margin: 5px 119px;
+        }
+    }
+}
+@media screen and (max-width: 768px) and (min-width: 411px) {
+    .header{
+        h6{
+            margin: 5px 95px;
+        }
+    }
+    .homeMargin{
+        h6{
+            margin: 5px 140px;
+        }
+    }
+        .content {
+            min-height: 100%;
+            margin-bottom: 12em;
+            .imageCenter{
+                margin-top: 142px;
+            }
+        }
+        .lgContent{
+            margin-bottom: 18em;
+    
+        }
+    }
