@@ -1,10 +1,11 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito&display=swap");
 * {
   padding: 0;
   margin: 0;
 }
 
 body {
-  font-family: Open Sans, sans-serif;
+  font-family: 'Nunito', sans-serif;
 }
 
 .container {
@@ -100,6 +101,47 @@ a {
 
 .content .boldTxt h5 {
   font-weight: bold;
+}
+
+.content .container2 .titleRow {
+  display: flex;
+}
+
+.content .container2 .titleRow img {
+  width: 15px;
+  height: 15px;
+  margin-top: 3px;
+  margin-right: 1px;
+}
+
+.content .container2 .title {
+  font-weight: bold;
+  margin: 0;
+  font-size: 18px;
+}
+
+.content .container2 .para {
+  font-weight: lighter;
+  margin: 0;
+  font-size: 14px;
+}
+
+.content .container2 .drug {
+  margin-right: 15px;
+  background-color: #F3F9FE;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.content .container2 .drug .MiniTitle {
+  font-weight: bold;
+  margin: 0;
+  font-size: 16px;
+  color: #2698F3;
+}
+
+.content .container2 .drug span.para {
+  font-size: 14px;
 }
 
 .blue {
