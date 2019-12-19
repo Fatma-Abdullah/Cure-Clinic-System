@@ -108,6 +108,13 @@ a {
   padding: 7px 15px;
 }
 
+.content .prescList .btn-primary {
+  border-radius: 25px;
+  padding: 5px 11px;
+  font-size: 15px;
+  margin-top: 8px;
+}
+
 .content .titleRow {
   display: flex;
 }
@@ -117,6 +124,10 @@ a {
   height: 15px;
   margin-top: 3px;
   margin-right: 1px;
+}
+
+.content .titleRow .lowwidth {
+  width: 12px;
 }
 
 .content .title {

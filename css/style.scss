@@ -105,7 +105,12 @@ a {
     .prescList{
         background-color: white;
         padding: 7px 15px;
-       
+        .btn-primary{
+            border-radius: 25px;
+            padding: 5px 11px;
+            font-size: 15px;
+            margin-top: 8px;
+        }
     }
     .titleRow{
         display: flex;
@@ -114,6 +119,9 @@ a {
             height: 15px;
             margin-top: 3px;
             margin-right: 1px;
+        }
+        .lowwidth{
+            width: 12px;
         }
     }
     
