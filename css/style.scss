@@ -182,6 +182,28 @@ a {
             }
         }
     }
+    .images{
+        display: flex;
+        img{
+            margin: 5px;
+            width: 30vw;
+        }
+    }
+    @mixin placeholder {
+        ::-webkit-input-placeholder {@content}
+        :-moz-placeholder           {@content}
+        ::-moz-placeholder          {@content}
+        :-ms-input-placeholder      {@content}  
+      }
+      
+    .blueInput{
+        margin: 5px;
+        border: 1px solid #2698F3;
+        border-radius: 5px;
+        @include placeholder {
+            color: #2698F3;
+        }
+    }
 
 }
 
