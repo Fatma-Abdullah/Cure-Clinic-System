@@ -92,11 +92,8 @@ a {
     width: 100%;
     padding: 14px 0;
     margin-top: auto;
-
-     position: fixed;
+    position: fixed;
     left: 0;
-    bottom: 0;
-    width: 100%;
     text-align: center;
     height: 60px;
 }
@@ -120,6 +117,9 @@ a {
 .rightDiv{
     text-align: right;
     margin: 1em 2em;
+    position: fixed;
+    right: 0;
+    bottom: 3.5em;
     i{
         font-size: 3em;
         color: #2698f3;
