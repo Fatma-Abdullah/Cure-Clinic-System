@@ -53,6 +53,10 @@ a {
   width: 100%;
   padding: 9px;
   align-items: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  position: fixed;
 }
 
 .header h6 {
@@ -87,6 +91,12 @@ a {
   width: 100%;
   padding: 14px 0;
   margin-top: auto;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  height: 60px;
 }
 
 .footer .row .col-3, .col-4 {
@@ -117,7 +127,8 @@ a {
 }
 
 .content {
-  min-height: 86vh;
+  min-height: 100%;
+  margin: 3em 0 1em 0;
 }
 
 .content .imageCenter {
