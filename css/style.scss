@@ -11,6 +11,8 @@ body {
     min-height: 100%;
  display:flex;
 flex-direction: column; 
+color: #474747;
+
 }
 
 .container {
@@ -159,7 +161,7 @@ a {
     .boldTxt h5{
         font-weight: bold;
     }
-    .prescList{
+    .prescList {
         background-color: white;
         padding: 7px 15px;
         .btns{
@@ -210,7 +212,36 @@ a {
             width: 12px;
         }
     }
-    
+    .doc{
+        background-color: white;
+        border:none !important ;
+        margin: 5px auto !important;
+        padding: 10px;
+        .docSelect .col-1{
+            padding-left:0 !important;
+            padding-right:0 !important;
+        }
+        .title{
+            font-size: 16px;
+        }
+        .grayTitle{
+            font-size: 16px;
+            color:#8d8daa
+        }
+        button{
+            width:100%;
+            font-size:10px
+        }
+        .col-6{
+            padding-right: 0 !important; 
+            padding-left: 10px !important;
+        }
+        .para{
+            font-weight: bold;
+            margin:0;
+            font-size:13px;
+        }
+    }
     .title{
         font-weight: bold;
         margin:0;
@@ -375,6 +406,11 @@ form{
             margin: 5px 13px;
         }
     }
+    .bookMargin{
+        h6{
+            margin: 5px 43px;
+        }
+    }
 }
 @media screen and (max-width: 411px) and (min-width: 375px) {
     .header{
@@ -401,6 +437,11 @@ form{
         min-height: 85vh;
 
     }
+    .bookMargin{
+        h6{
+            margin: 5px 66px;
+        }
+    }
 }
 @media screen and (max-width: 768px) and (min-width: 411px) {
     .header{
@@ -423,7 +464,11 @@ form{
             margin: 5px 52px;
         }
     }
-    
+    .bookMargin{
+        h6{
+            margin: 5px 88px;
+        }
+    }
         // .content {
             // min-height: 100%;
         //     margin-bottom: 12em;
