@@ -468,10 +468,16 @@ form .col-12 {
   border-bottom: 1px solid gray;
 }
 
+.headerBanner img {
+  width: 100%;
+}
+
 .leftSide {
   margin-top: 1em;
   text-align: left;
   background-image: url(../images/footerBg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 4em 0;
 }
 
@@ -528,6 +534,9 @@ form .col-12 {
   }
   .bookMargin h6 {
     margin: 5px 66px;
+  }
+  .leftSide {
+    margin-top: 7em;
   }
 }
 

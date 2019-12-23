@@ -425,10 +425,17 @@ form{
 
     }
 }
+.headerBanner{
+    img{
+        width:100%
+    }
+}
 .leftSide{
     margin-top:1em;
     text-align:left;
     background-image: url(../images/footerBg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 4em 0;
     button{
         border-top-left-radius: 0;
@@ -504,6 +511,11 @@ form{
             margin: 5px 66px;
         }
     }
+    
+
+.leftSide {
+    margin-top: 7em;
+}
 }
 @media screen and (max-width: 768px) and (min-width: 411px) {
     .header{
