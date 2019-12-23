@@ -58,6 +58,7 @@ a {
     left: 0;
     top: 0;
     position: fixed;
+    z-index: 999;
     h6{
         margin: 5px 54px;
     }
@@ -83,6 +84,11 @@ a {
 .homeMargin{
     h6{
         margin: 5px 94px;
+    }
+}
+.patientMargin{
+    h6{
+        margin: 5px 88px;
     }
 }
 .footer {
@@ -126,6 +132,22 @@ a {
 
     }
 }
+.blueIcon{
+    text-align: right;
+    i{
+        font-size: 2em;
+        color: #2698f3;
+
+    }
+}
+.updateBtn{
+    margin: 3em auto;
+    // margin: -5em auto 5em auto;
+    button{
+        width: 152px;
+        font-size: 14px;
+    }
+}
 .content {
     min-height: 100%;
     // min-height: calc(100vh - 40px);
@@ -140,11 +162,40 @@ a {
     .prescList{
         background-color: white;
         padding: 7px 15px;
+        .btns{
+            display: flex;
+            justify-content: center;
+            margin: 15px auto;
+            height: 40px;
+            button {
+                cursor: pointer;
+                margin-left: -4px;
+                font-size: 13px;
+                width: 48%;
+            }
+            .btn1{
+                border-radius: 5px 0px 0px 5px;
+            }
+            .btn2{
+                border-radius: 0px 5px 5px 0px;
+            }
+        }
         .btn-primary{
             border-radius: 25px;
             padding: 5px 11px;
             font-size: 15px;
             margin-top: 8px;
+        }
+        .attach{
+            display: flex;
+            align-items: center;
+            .col-4{
+                padding: 0;
+                margin: 0;
+            }
+            .col-2 , .col-10 {
+                padding-right: 0 !important;
+            }
         }
     }
     .titleRow{
@@ -152,8 +203,8 @@ a {
         img{
             width: 15px;
             height: 15px;
-            margin-top: 3px;
-            margin-right: 1px;
+            // margin-top: 3px;
+            margin-right: 3px;
         }
         .lowwidth{
             width: 12px;
@@ -163,13 +214,13 @@ a {
     .title{
         font-weight: bold;
         margin:0;
-        font-size:18px;
+        font-size:16px;
         color: #474747;
     }
     .para{
         font-weight: lighter;
         margin:0;
-        font-size:14px;
+        font-size:13px;
     }
     .drug{
         margin-right: 15px;
@@ -264,16 +315,17 @@ a {
     }
 }
 // ---------change password--------
+
 .btns{
     display: flex;
     justify-content: center;
     margin: 15px auto;
     height: 40px;
-
     button {
         cursor: pointer;
         margin-left: -4px;
         font-size: 13px;
+        width: 48%;
     }
     .btn1{
         border-radius: 5px 0px 0px 5px;
@@ -288,13 +340,7 @@ form{
         padding-left: 5px;
     }
 }
-.updateBtn{
-    margin: 1em auto;
-    button{
-        width: 152px;
-        font-size: 14px;
-    }
-}
+
 
 @media screen and (max-width: 800px) and (min-width: 320px) {
     html, body {
@@ -319,6 +365,11 @@ form{
             margin: 5px 94px;
         }
     }
+    .patientMargin{
+        h6{
+            margin: 5px 88px;
+        }
+    }
     .chPassMargin{
         h6{
             margin: 5px 13px;
@@ -334,6 +385,11 @@ form{
     .homeMargin{
         h6{
             margin: 5px 119px;
+        }
+    }
+    .patientMargin{
+        h6{
+            margin: 5px 115px;
         }
     }
     .chPassMargin{
@@ -355,6 +411,11 @@ form{
     .homeMargin{
         h6{
             margin: 5px 140px;
+        }
+    }
+    .patientMargin{
+        h6{
+            margin: 5px 130px;
         }
     }
     .chPassMargin{
