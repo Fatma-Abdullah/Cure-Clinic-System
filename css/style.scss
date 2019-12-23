@@ -212,6 +212,7 @@ a {
             width: 12px;
         }
     }
+   
     .doc{
         background-color: white;
         border:none !important ;
@@ -228,9 +229,22 @@ a {
             font-size: 16px;
             color:#8d8daa
         }
-        button{
+        @mixin placeholder {
+            &::-webkit-input-placeholder {@content}
+            &:-moz-placeholder           {@content}
+            &::-moz-placeholder          {@content}
+            &:-ms-input-placeholder      {@content}  
+        }
+        input{
             width:100%;
-            font-size:10px
+            font-size:10px;
+            &.btn-primary{
+                @include placeholder {
+                    color: white;
+                }
+            
+            } 
+            
         }
         .col-6{
             padding-right: 0 !important; 
@@ -365,14 +379,62 @@ a {
         border-radius: 0px 5px 5px 0px;
     }
 }
+.btnsRounded{
+    display: flex;
+    justify-content: center;
+    margin: 15px auto;
+    height: 40px;
+    button {
+        cursor: pointer;
+        margin-left: -4px;
+        font-size: 13px;
+        width: 48%;
+        border-radius: 6.7em;
+    }
+    .btn1{
+        // border-radius: 50%;
+        z-index: 5;
+        position: relative;
+    right: 0px;
+    right: -16px;
+    width: 50%;
+    }
+    .btn2{
+        border-left-color: white;
+        position: relative;
+    right: 0px;
+    width: 50%;
+ 
+    }
+}
 form{
     .col-12{
         padding-right: 9px;
         padding-left: 5px;
     }
 }
+.loginForm{
+    margin: auto 1em;
+    label{
+        color: #2698f3;
+    }
+    input{
+        border: none;
+        border-radius: 0;
+        border-bottom:1px solid gray
 
-
+    }
+}
+.leftSide{
+    margin-top:1em;
+    text-align:left;
+    background-image: url(../images/footerBg.png);
+    padding: 4em 0;
+    button{
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+}
 @media screen and (max-width: 800px) and (min-width: 320px) {
     html, body {
         width: 100%;
@@ -469,18 +531,4 @@ form{
             margin: 5px 88px;
         }
     }
-        // .content {
-            // min-height: 100%;
-        //     margin-bottom: 12em;
-        //     .imageCenter{
-        //         margin-top: 142px;
-        //     }
-        // }
-        // .lgContent{
-        //     margin-bottom: 18em;
-        // }
-        // .xlgContent{
-        //     margin-bottom: 27em;
-
-        // }
     }
