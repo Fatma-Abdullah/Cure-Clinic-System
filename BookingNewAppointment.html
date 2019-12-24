@@ -127,7 +127,7 @@
                 <p class="para my-2">Pick Time (4 slots available) </p>
                 <div class="row mt-2">
                     <div class="col-6">
-                        <button type="button active" class="btn">10:30 AM to 11:30AM</button>
+                        <button type="button " class="btn active">10:30 AM to 11:30AM</button>
                     </div>
                     <div class="col-6">
                         <button type="button" class="btn">03:30 AM to 04:30AM</button>
@@ -223,9 +223,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script>
         $('.btn').on('click', function() {
-        // $('.btn').removeClass('active');
-        // $('.bookingBtns').children().removeClass('active');
-        $(this).parent().siblings().find('.active').removeClass("active");
+        $(this).parent().parent().parent().find('.active').removeClass("active");
         $(this).addClass('active');
         });
       
