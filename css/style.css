@@ -45,6 +45,10 @@ a {
   justify-content: center;
 }
 
+.blueBg img {
+  width: 100%;
+}
+
 /* -------setting----------- */
 .header {
   background-color: #2698f3;
@@ -153,7 +157,7 @@ a {
 
 .content {
   min-height: 100%;
-  margin: 3em 0 1em 0;
+  margin: 4em 0 1em 0;
 }
 
 .content .imageCenter {
@@ -543,6 +547,10 @@ form .col-12 {
   border-bottom-left-radius: 0;
 }
 
+.updateBtn {
+  margin: 2em auto 4em auto;
+}
+
 @media screen and (max-width: 800px) and (min-width: 320px) {
   html, body {
     width: 100%;
@@ -565,6 +573,9 @@ form .col-12 {
   .patientMargin h6 {
     margin: 5px 88px;
   }
+  .appointMargin h6 {
+    margin: 5px 69px;
+  }
   .chPassMargin h6 {
     margin: 5px 13px;
   }
@@ -582,6 +593,9 @@ form .col-12 {
   }
   .patientMargin h6 {
     margin: 5px 115px;
+  }
+  .appointMargin h6 {
+    margin: 5px 90px;
   }
   .chPassMargin h6 {
     margin: 5px 41px;
@@ -607,6 +621,9 @@ form .col-12 {
   .patientMargin h6 {
     margin: 5px 130px;
   }
+  .appointMargin h6 {
+    margin: 5px 110px;
+  }
   .chPassMargin h6 {
     margin: 5px 52px;
   }
@@ -625,10 +642,44 @@ form .col-12 {
   .patientMargin h6 {
     margin: 5px 130px;
   }
+  .appointMargin h6 {
+    margin: 5px 110px;
+  }
   .chPassMargin h6 {
     margin: 5px 52px;
   }
   .bookMargin h6 {
     margin: 5px 88px;
+  }
+}
+
+@media screen and (max-width: 1040px) and (min-width: 768px) {
+  .header h6 {
+    margin: 5px 271px;
+  }
+  .homeMargin h6 {
+    margin: 5px 315px;
+  }
+  .patientMargin h6 {
+    margin: 5px 285px;
+  }
+  .appointMargin h6 {
+    margin: 5px 270px;
+  }
+  .chPassMargin h6 {
+    margin: 5px 221px;
+  }
+  .bookMargin h6 {
+    margin: 5px 256px;
+  }
+  .container {
+    max-width: 767px !important;
+  }
+  .updateBtn {
+    margin: 0em auto 5em auto;
+  }
+  .leftSide {
+    margin-top: 0em;
+    padding: 9em 0;
   }
 }

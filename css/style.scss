@@ -43,6 +43,9 @@ a {
     bottom: 0;
     display: flex;
     justify-content: center;
+    img{
+        width: 100%;
+    }
 }
 
 
@@ -154,7 +157,7 @@ a {
     min-height: 100%;
     // min-height: calc(100vh - 40px);
     // min-height: 86vh;
-    margin: 3em 0 1em 0;
+    margin: 4em 0 1em 0;
     .imageCenter{
         margin-top: 142px;
     }
@@ -501,6 +504,9 @@ form{
         border-bottom-left-radius: 0;
     }
 }
+.updateBtn {
+    margin: 2em auto 4em auto;
+}
 @media screen and (max-width: 800px) and (min-width: 320px) {
     html, body {
         width: 100%;
@@ -529,6 +535,11 @@ form{
             margin: 5px 88px;
         }
     }
+    .appointMargin{
+        h6{
+            margin: 5px 69px;
+        }
+    }
     .chPassMargin{
         h6{
             margin: 5px 13px;
@@ -554,6 +565,11 @@ form{
     .patientMargin{
         h6{
             margin: 5px 115px;
+        }
+    }
+    .appointMargin{
+        h6{
+            margin: 5px 90px;
         }
     }
     .chPassMargin{
@@ -593,6 +609,11 @@ form{
             margin: 5px 130px;
         }
     }
+    .appointMargin{
+        h6{
+            margin: 5px 110px;
+        }
+    }
     .chPassMargin{
         h6{
             margin: 5px 52px;
@@ -620,6 +641,11 @@ form{
                 margin: 5px 130px;
             }
         }
+        .appointMargin{
+            h6{
+                margin: 5px 110px;
+            }
+        }
         .chPassMargin{
             h6{
                 margin: 5px 52px;
@@ -630,4 +656,48 @@ form{
                 margin: 5px 88px;
             }
         }
+        }
+            @media screen and (max-width: 1040px) and (min-width: 768px) {
+        .header{
+            h6{
+                margin: 5px 271px;
+            }
+        }
+        .homeMargin{
+            h6{
+                margin: 5px 315px;
+            }
+        }
+        .patientMargin{
+            h6{
+                margin: 5px 285px;
+            }
+        }
+        .appointMargin{
+            h6{
+                margin: 5px 270px;
+            }
+        }
+        .chPassMargin{
+            h6{
+                margin: 5px 221px;
+            }
+        }
+        .bookMargin{
+            h6{
+                margin: 5px 256px;
+            }
+        }
+        .container {
+            max-width: 767px !important;
+        }
+        .updateBtn {
+            margin: 0em auto 5em auto;
+        }
+        .leftSide {
+            margin-top: 0em;
+            padding: 9em 0;
+
+        }
+      
         }
