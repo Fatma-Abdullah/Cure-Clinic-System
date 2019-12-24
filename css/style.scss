@@ -407,6 +407,65 @@ a {
  
     }
 }
+.bookingBtns{
+    .btn{
+        color: #2698f3;
+        background-color: white;
+        border: 1px solid #2698f3;   
+        position: relative;
+    width: 100%;
+    padding: 3px;
+    font-size: 11px;
+ 
+    }
+    
+    .active{
+        // .btn{}
+        color: white;
+        background-color: #2698f3;
+        z-index: 5;
+        position: relative;
+        width: 100%;
+
+    } 
+}
+.btnsRounded2{
+    display: flex;
+    justify-content: center;
+    margin: 15px auto;
+    height: 40px;
+    button {
+        cursor: pointer;
+        margin-left: -4px;
+        font-size: 13px;
+        width: 48%;
+        border-radius: 6.7em;
+    }
+   
+    .btn{
+        color: #2698f3;
+        background-color: white;
+        border: 1px solid #2698f3;   
+        position: relative;
+    right: 0px;
+    width: 50%;
+    left:3px
+ 
+    }
+    .active{
+        color: white;
+        background-color: #2698f3;
+        z-index: 5;
+        position: relative;
+        width: 50%;
+    }
+}
+.active{
+    color: white;
+    background-color: #2698f3;
+    border-radius: 5px;
+}
+
 form{
     .col-12{
         padding-right: 9px;
@@ -517,6 +576,7 @@ form{
     margin-top: 7em;
 }
 }
+
 @media screen and (max-width: 768px) and (min-width: 411px) {
     .header{
         h6{
