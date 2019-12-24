@@ -597,12 +597,30 @@ form .col-12 {
   }
 }
 
-@media screen and (max-width: 768px) and (min-width: 411px) {
+@media screen and (max-width: 758px) and (min-width: 411px) {
   .header h6 {
     margin: 5px 95px;
   }
   .homeMargin h6 {
     margin: 5px 140px;
+  }
+  .patientMargin h6 {
+    margin: 5px 130px;
+  }
+  .chPassMargin h6 {
+    margin: 5px 52px;
+  }
+  .bookMargin h6 {
+    margin: 5px 88px;
+  }
+}
+
+@media screen and (max-width: 1040px) and (min-width: 768px) {
+  .header h6 {
+    margin: 5px 95px;
+  }
+  .homeMargin h6 {
+    margin: 5px 315px;
   }
   .patientMargin h6 {
     margin: 5px 130px;
