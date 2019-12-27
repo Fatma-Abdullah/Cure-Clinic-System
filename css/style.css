@@ -65,8 +65,27 @@ a {
   z-index: 999;
 }
 
-.header h6 {
-  margin: 5px 54px;
+.header .icon1 {
+  width: 15%;
+  display: flex;
+  justify-content: center;
+}
+
+.header .headTitle {
+  width: 85%;
+  display: flex;
+  justify-content: center;
+}
+
+.header .headTitle2 {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+}
+
+.header .headTitle2 .form-control {
+  display: flex;
+  width: inherit;
 }
 
 .header h5 {
@@ -74,7 +93,6 @@ a {
 }
 
 .header i {
-  margin-right: 25px;
   cursor: pointer;
 }
 
@@ -88,10 +106,6 @@ a {
 
 .homeMargin h6 {
   margin: 5px 94px;
-}
-
-.patientMargin h6 {
-  margin: 5px 88px;
 }
 
 .footer {
@@ -563,115 +577,16 @@ form .col-12 {
   }
 }
 
-@media screen and (max-width: 374px) and (min-width: 320px) {
-  .header h6 {
-    margin: 5px 54px;
-  }
-  .homeMargin h6 {
-    margin: 5px 94px;
-  }
-  .patientMargin h6 {
-    margin: 5px 88px;
-  }
-  .appointMargin h6 {
-    margin: 5px 69px;
-  }
-  .chPassMargin h6 {
-    margin: 5px 13px;
-  }
-  .bookMargin h6 {
-    margin: 5px 43px;
-  }
-}
-
 @media screen and (max-width: 411px) and (min-width: 375px) {
-  .header h6 {
-    margin: 5px 60px;
-  }
-  .homeMargin h6 {
-    margin: 5px 119px;
-  }
-  .patientMargin h6 {
-    margin: 5px 115px;
-  }
-  .appointMargin h6 {
-    margin: 5px 90px;
-  }
-  .chPassMargin h6 {
-    margin: 5px 41px;
-  }
   .fHeight {
     min-height: 85vh;
-  }
-  .bookMargin h6 {
-    margin: 5px 66px;
   }
   .leftSide {
     margin-top: 7em;
   }
 }
 
-@media screen and (max-width: 758px) and (min-width: 411px) {
-  .header h6 {
-    margin: 5px 95px;
-  }
-  .homeMargin h6 {
-    margin: 5px 140px;
-  }
-  .patientMargin h6 {
-    margin: 5px 130px;
-  }
-  .appointMargin h6 {
-    margin: 5px 110px;
-  }
-  .chPassMargin h6 {
-    margin: 5px 52px;
-  }
-  .bookMargin h6 {
-    margin: 5px 88px;
-  }
-}
-
 @media screen and (max-width: 1040px) and (min-width: 768px) {
-  .header h6 {
-    margin: 5px 95px;
-  }
-  .homeMargin h6 {
-    margin: 5px 315px;
-  }
-  .patientMargin h6 {
-    margin: 5px 130px;
-  }
-  .appointMargin h6 {
-    margin: 5px 110px;
-  }
-  .chPassMargin h6 {
-    margin: 5px 52px;
-  }
-  .bookMargin h6 {
-    margin: 5px 88px;
-  }
-}
-
-@media screen and (max-width: 1040px) and (min-width: 768px) {
-  .header h6 {
-    margin: 5px 271px;
-  }
-  .homeMargin h6 {
-    margin: 5px 315px;
-  }
-  .patientMargin h6 {
-    margin: 5px 285px;
-  }
-  .appointMargin h6 {
-    margin: 5px 270px;
-  }
-  .chPassMargin h6 {
-    margin: 5px 221px;
-  }
-  .bookMargin h6 {
-    margin: 5px 256px;
-  }
   .container {
     max-width: 767px !important;
   }
